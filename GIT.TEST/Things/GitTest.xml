@@ -15,7 +15,7 @@
          enabled="true"
          homeMashup=""
          identifier=""
-         lastModifiedDate="2019-10-16T09:52:06.550+08:00"
+         lastModifiedDate="2019-10-16T10:23:18.847+08:00"
          name="GitTest"
          projectName="GIT.TEST"
          published="false"
@@ -141,7 +141,17 @@
                 </ConfigurationTable>
             </ConfigurationTables>
             <ThingShape>
-                <PropertyDefinitions></PropertyDefinitions>
+                <PropertyDefinitions>
+                    <PropertyDefinition
+                     aspect.cacheTime="0.0"
+                     aspect.dataChangeType="VALUE"
+                     baseType="STRING"
+                     category=""
+                     description=""
+                     isLocalOnly="false"
+                     name="asd"
+                     ordinal="2"></PropertyDefinition>
+                </PropertyDefinitions>
                 <ServiceDefinitions>
                     <ServiceDefinition
                      aspect.isAsync="false"
@@ -283,7 +293,10 @@
             <RemotePropertyBindings></RemotePropertyBindings>
             <RemoteServiceBindings></RemoteServiceBindings>
             <RemoteEventBindings></RemoteEventBindings>
-            <AlertConfigurations></AlertConfigurations>
+            <AlertConfigurations>
+                <AlertDefinitions
+                 name="asd"></AlertDefinitions>
+            </AlertConfigurations>
             <ImplementedShapes>
                 <ImplementedShape
                  name="Git.Utility.ThingShape"
