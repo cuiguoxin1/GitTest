@@ -11,16 +11,16 @@
         <Thing
          description=""
          documentationContent=""
-         effectiveThingPackage="GitExtensionPackage"
+         effectiveThingPackage="ConfiguredThing"
          enabled="true"
          homeMashup=""
          identifier=""
-         lastModifiedDate="2019-10-16T09:55:11.487+08:00"
+         lastModifiedDate="2019-10-16T10:11:34.476+08:00"
          name="abc"
          projectName="GIT.TEST"
          published="false"
          tags=""
-         thingTemplate="GitBackupTemplate"
+         thingTemplate="GenericThing"
          valueStream="">
             <avatar></avatar>
             <DesignTimePermissions>
@@ -35,107 +35,7 @@
                 <Visibility></Visibility>
             </VisibilityPermissions>
             <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
-            <ConfigurationTables>
-                <ConfigurationTable
-                 description=""
-                 isMultiRow="false"
-                 name="Configuration"
-                 ordinal="0">
-                    <DataShape>
-                        <FieldDefinitions>
-                            <FieldDefinition
-                             aspect.defaultValue="master"
-                             aspect.friendlyName="Initial branch"
-                             baseType="STRING"
-                             description=""
-                             name="BranchName"
-                             ordinal="7"></FieldDefinition>
-                            <FieldDefinition
-                             aspect.defaultValue="jdoe@ptc.com"
-                             aspect.friendlyName="Commit Email"
-                             baseType="STRING"
-                             description=""
-                             name="CommitEmail"
-                             ordinal="3"></FieldDefinition>
-                            <FieldDefinition
-                             aspect.defaultValue="John Doe"
-                             aspect.friendlyName="Commit Name"
-                             baseType="STRING"
-                             description=""
-                             name="CommitName"
-                             ordinal="2"></FieldDefinition>
-                            <FieldDefinition
-                             aspect.defaultValue="GitRepository"
-                             aspect.friendlyName="File Repository"
-                             aspect.thingTemplate="FileRepository"
-                             baseType="THINGNAME"
-                             description=""
-                             name="FileRepository"
-                             ordinal="5"></FieldDefinition>
-                            <FieldDefinition
-                             aspect.defaultValue="https://bitbucket.org/username/reponame"
-                             aspect.friendlyName="Git Repo URL"
-                             baseType="STRING"
-                             description=""
-                             name="GitRepoURL"
-                             ordinal="4"></FieldDefinition>
-                            <FieldDefinition
-                             baseType="PASSWORD"
-                             description=""
-                             name="Password"
-                             ordinal="1"></FieldDefinition>
-                            <FieldDefinition
-                             aspect.defaultValue="/smartparking"
-                             aspect.friendlyName="File Repository Path"
-                             baseType="STRING"
-                             description=""
-                             name="RepoPathName"
-                             ordinal="6"></FieldDefinition>
-                            <FieldDefinition
-                             baseType="STRING"
-                             description=""
-                             name="User"
-                             ordinal="0"></FieldDefinition>
-                        </FieldDefinitions>
-                    </DataShape>
-                    <Rows>
-                        <Row>
-                            <BranchName>
-                            <![CDATA[
-                            master
-                            ]]>
-                            </BranchName>
-                            <CommitEmail>
-                            <![CDATA[
-                            jdoe@ptc.com
-                            ]]>
-                            </CommitEmail>
-                            <CommitName>
-                            <![CDATA[
-                            John Doe
-                            ]]>
-                            </CommitName>
-                            <FileRepository>
-                            <![CDATA[
-                            GitRepository
-                            ]]>
-                            </FileRepository>
-                            <GitRepoURL>
-                            <![CDATA[
-                            https://bitbucket.org/username/reponame
-                            ]]>
-                            </GitRepoURL>
-                            <Password></Password>
-                            <RepoPathName>
-                            <![CDATA[
-                            /smartparking
-                            ]]>
-                            </RepoPathName>
-                            <User></User>
-                        </Row>
-                    </Rows>
-                </ConfigurationTable>
-            </ConfigurationTables>
+            <ConfigurationTables></ConfigurationTables>
             <ThingShape>
                 <PropertyDefinitions></PropertyDefinitions>
                 <ServiceDefinitions></ServiceDefinitions>
@@ -149,11 +49,7 @@
             <RemoteServiceBindings></RemoteServiceBindings>
             <RemoteEventBindings></RemoteEventBindings>
             <AlertConfigurations></AlertConfigurations>
-            <ImplementedShapes>
-                <ImplementedShape
-                 name="Git.Utility.ThingShape"
-                 type="ThingShape"></ImplementedShape>
-            </ImplementedShapes>
+            <ImplementedShapes></ImplementedShapes>
             <ThingProperties></ThingProperties>
         </Thing>
     </Things>
