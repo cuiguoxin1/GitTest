@@ -15,7 +15,7 @@
          enabled="true"
          homeMashup=""
          identifier=""
-         lastModifiedDate="2019-10-17T15:30:10.755+08:00"
+         lastModifiedDate="2019-10-17T15:34:51.972+08:00"
          name="bbb"
          projectName="GIT.TEST"
          published="false"
@@ -37,7 +37,17 @@
             <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
             <ConfigurationTables></ConfigurationTables>
             <ThingShape>
-                <PropertyDefinitions></PropertyDefinitions>
+                <PropertyDefinitions>
+                    <PropertyDefinition
+                     aspect.cacheTime="0.0"
+                     aspect.dataChangeType="VALUE"
+                     baseType="STRING"
+                     category=""
+                     description=""
+                     isLocalOnly="false"
+                     name="aaa"
+                     ordinal="2"></PropertyDefinition>
+                </PropertyDefinitions>
                 <ServiceDefinitions></ServiceDefinitions>
                 <EventDefinitions></EventDefinitions>
                 <ServiceMappings></ServiceMappings>
@@ -48,7 +58,10 @@
             <RemotePropertyBindings></RemotePropertyBindings>
             <RemoteServiceBindings></RemoteServiceBindings>
             <RemoteEventBindings></RemoteEventBindings>
-            <AlertConfigurations></AlertConfigurations>
+            <AlertConfigurations>
+                <AlertDefinitions
+                 name="aaa"></AlertDefinitions>
+            </AlertConfigurations>
             <ImplementedShapes></ImplementedShapes>
             <ThingProperties></ThingProperties>
         </Thing>
